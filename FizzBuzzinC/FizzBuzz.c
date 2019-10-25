@@ -8,15 +8,15 @@ int main(int argc, char **argv){
 	for (int i = 0; i < max; i = i + 1){
 		if (a == i && b == i ){
 			printf("fizzbuzz\n");
-			a = a + 3;
-			b = b + 2;}
+			a = a + a;
+			b = b + b;}
 		else if (a == i){
 			printf("fizz\n");
-			a = a + 3;
+			a = a + a;
 			}
 		else if (b == i){
 			printf("buzz\n");
-			b = b + 2;}
+			b = b + b;}
 		else{printf("%d\n", i);}
 		}
 	
